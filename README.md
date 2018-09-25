@@ -26,5 +26,5 @@ Per la realizzazione di questo progetto, per prima cosa sono andato su diversi s
 Il risultato finale mostra la rana che può essere controllata tramite le freccie direzionali e le auto che si muovono per strada.
 La gestione delle collisioni deve essere migliorata
 
-![Rana](/resources/screen1.png)
-![fiume](/resources/screen2.png)
+![Rana](/Resources/screen1.png)
+![fiume](/Resources/screen2.png)
