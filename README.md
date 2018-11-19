@@ -1,30 +1,25 @@
-# Report 
+# Modeling and rendering with boxes - Capolingua
 
-Per il progetto ho deciso di realizzare in 3D una versione del gomune gioco Frogger
+## Report
 
+E' stato scelto di realizzare una versione di un castello medievale in stile boxed. I modelli sono stati realizzati tramite il threejs editor usando unicamente cubi ed esportati in GLTF. Il terreno è stato realizzando usando le height map, per ogni pixel della mappa, è stato fatto corrispondere un cubo, che viene scalato e traslato in base alla gradazione di nero del pixel della height map in considerazione, questa è stata realizzanda partendo da quella fornita inizialmente effetuando alcune modifiche in Gimp per creare un fiume e un lago ed adattarla al meglio ai modelli presenti.
 
-Gli oggetti principali sono due: "la rana" raffigurata da un cubo e le auto
+Per poter riprodurre correttamente il progetto è necessario eseguirlo in locale. Per farlo ho usato XAMPP. Vedere documentazione THREE.js per ulteriori chiarimenti.
 
-Il codice è stato suddiviso in piu file: 
+---
 
-- **index.html**: file principale;
-- **car.js**: funzioni per muovere il veicolo.
-- **game.js**: gestione del gioco.
-- **gameControls.js**: movimenti.
-- **palyer.js**: gestione player.
+## Animazioni
 
-Le librerie utilizzate sono le seguenti:
-
-- **three.min.js**
-- **stats.min.js**
-
-## Sviluppo del progetto
-Per la realizzazione di questo progetto, per prima cosa sono andato su diversi siti per osservare le caratteristiche estetiche del *Frogger* orginale. Per rientrare nei tempi ho deciso di semplificare il più possibile togliendo ad esempio le tartarughe e alcuni elementi grafici. 
-
+Sono state inserite delle semplici animazioni per rendere più interattivo la scena.
+E' possibile aprire e chiudere il cancello d'ingresso del castello
+E' possibile animare il cavallo presente all'interno
 
 ## Risultato
-Il risultato finale mostra la rana che può essere controllata tramite le freccie direzionali e le auto che si muovono per strada.
-La gestione delle collisioni deve essere migliorata
 
-![Rana](/Resources/screen1.png)
-![fiume](/Resources/screen2.png)
+![bozza](resources/Bozza.jpg)
+![screen1](rresources/res_00001.png)
+![screen2](rresources/res_00002.png)
+![screen3](rresources/res_00003.png)
+![screen4](rresources/res_00004.png)
+![screen5](rresources/res_00005.png)
+![screen5](rresources/res_00006.png)
