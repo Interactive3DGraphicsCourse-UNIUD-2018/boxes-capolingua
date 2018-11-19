@@ -17,8 +17,8 @@ E' possibile animare il cavallo presente all'interno
 ## Risultato
 
 ![bozza](resources/Bozza.jpg)
-![screen1](rresources/res_00001.png)
-![screen2](rresources/res_00002.png)
+![screen1](rresources/res_000001.png)
+![screen2](rresources/res_000002.png)
 ![screen3](rresources/res_00003.png)
 ![screen4](rresources/res_00004.png)
 ![screen5](rresources/res_00005.png)
